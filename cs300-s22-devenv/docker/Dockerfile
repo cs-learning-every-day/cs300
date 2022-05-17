@@ -1,5 +1,26 @@
 FROM ubuntu:focal
 
+# 添加国内镜像源
+RUN echo "deb http://mirrors.tencentyun.com/ubuntu/ focal main restricted universe multiverse" > /etc/apt/sources.list
+RUN echo "deb http://mirrors.tencentyun.com/ubuntu/ focal-security main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb http://mirrors.tencentyun.com/ubuntu/ focal-updates main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.tencentyun.com/ubuntu/ focal main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.tencentyun.com/ubuntu/ focal-security main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.tencentyun.com/ubuntu/ focal-updates main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb http://archive.ubuntu.com/ubuntu focal multiverse universe restricted" >> /etc/apt/sources.list
+RUN echo "deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse" >> /etc/apt/sources.list
+
+RUN apt-get update -y && apt-get -y upgrade
+
 # set environment variables for tzdata
 ARG TZ=America/New_York
 ENV TZ=${TZ}
