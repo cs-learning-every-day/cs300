@@ -18,4 +18,5 @@ void f() {
 
 int main() {
     f();
+    hexdump("abcdef#$@$1212321asdfasdfasdfs2", 20);
 }
