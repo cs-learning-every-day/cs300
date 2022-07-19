@@ -1,4 +1,4 @@
-#### cs300 SP22
+#### [cs300 SP22](http://cs.brown.edu/courses/csci0300/2022/index.html)
 
 - [X] Lab 0: Getting Set Up (Docker & Git)
 - [X] Project 1: Snake :snake:
@@ -6,6 +6,7 @@
 - [X] Lab 2: Debugging
 - [X] Lab 3: Assembly and Buffer Overflow
 - [ ] Project 2: DMalloc
+
 
 
 #### Resources
