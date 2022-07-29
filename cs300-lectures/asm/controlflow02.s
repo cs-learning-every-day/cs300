@@ -6,23 +6,21 @@ _Z1fPKii:
 .LFB0:
 	testl	%esi, %esi
 	jle	.L4
-	movq	%rdi, %rax
-	leal	-1(%rsi), %edx
-	leaq	4(%rdi,%rdx,4), %rsi
-	movl	$0, %edx
+	movq	%rdi, %rdx
+	leal	-1(%rsi), %eax
+	leaq	4(%rdi,%rax,4), %rsi
+	movl	$0, %eax
 .L3:
-	movsbq	(%rax), %rcx
-	addq	%rcx, %rdx
-	addq	$4, %rax
-	cmpq	%rsi, %rax
+	movsbq	(%rdx), %rcx
+	addq	%rcx, %rax
+	addq	$4, %rdx
+	cmpq	%rsi, %rdx
 	jne	.L3
-.L1:
-	movq	%rdx, %rax
 	ret
 .L4:
-	movl	$0, %edx
-	jmp	.L1
+	movl	$0, %eax
+	ret
 .LFE0:
 	.size	_Z1fPKii, .-_Z1fPKii
-	.ident	"GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
+	.ident	"GCC: (Ubuntu 8.4.0-3ubuntu2) 8.4.0"
 	.section	.note.GNU-stack,"",@progbits

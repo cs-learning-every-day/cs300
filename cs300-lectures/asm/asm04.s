@@ -15,5 +15,5 @@ _Z1fv:
 	.size	a, 4
 a:
 	.long	10
-	.ident	"GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
+	.ident	"GCC: (Ubuntu 8.4.0-3ubuntu2) 8.4.0"
 	.section	.note.GNU-stack,"",@progbits

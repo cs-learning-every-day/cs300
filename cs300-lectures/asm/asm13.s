@@ -8,5 +8,5 @@ _Z1fi:
 	ret
 .LFE0:
 	.size	_Z1fi, .-_Z1fi
-	.ident	"GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0"
+	.ident	"GCC: (Ubuntu 8.4.0-3ubuntu2) 8.4.0"
 	.section	.note.GNU-stack,"",@progbits
