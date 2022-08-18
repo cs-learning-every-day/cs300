@@ -5,7 +5,7 @@
 - [X] Lab 1: C Programming and Makefiles
 - [X] Lab 2: Debugging
 - [X] Lab 3: Assembly and Buffer Overflow
-- [ ] Project 2: DMalloc
+- [X] Project 2: DMalloc
 
 
 
