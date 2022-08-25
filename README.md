@@ -6,6 +6,7 @@
 - [X] Lab 2: Debugging
 - [X] Lab 3: Assembly and Buffer Overflow
 - [X] Project 2: DMalloc
+- [X] Lab4: Caching
 
 
 
