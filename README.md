@@ -8,8 +8,8 @@
 - [x] Project 2: DMalloc
 - [x] Lab4: Caching
 - [x] Project 3: Caching I/O
-- [ ] Lab 5: Getting Familiar with WeensyOS
-- [ ] Project 4: WeensyOS
+- [x] Lab 5: Getting Familiar with WeensyOS
+- [x] Project 4: WeensyOS TODO step7:exit
 - [ ] Lab 6: Processes
 - [ ] Lab 7: Threads
 - [ ] Lab 8: Safer Systems Programming (featuring Rust)
