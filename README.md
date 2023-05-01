@@ -10,7 +10,7 @@
 - [x] Project 3: Caching I/O
 - [x] Lab 5: Getting Familiar with WeensyOS
 - [x] Project 4: WeensyOS TODO step7:exit
-- [ ] Lab 6: Processes
+- [x] Lab 6: Processes
 - [ ] Lab 7: Threads
 - [ ] Lab 8: Safer Systems Programming (featuring Rust)
 - [ ] Lab 9: Protobuf and gRPC
