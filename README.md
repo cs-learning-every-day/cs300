@@ -11,7 +11,7 @@
 - [x] Lab 5: Getting Familiar with WeensyOS
 - [x] Project 4: WeensyOS TODO step7:exit
 - [x] Lab 6: Processes
-- [ ] Lab 7: Threads
+- [x] Lab 7: Threads
 - [ ] Lab 8: Safer Systems Programming (featuring Rust)
 - [ ] Lab 9: Protobuf and gRPC
 - [ ] Project 5: Vunmo
