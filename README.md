@@ -12,7 +12,7 @@
 - [x] Project 4: WeensyOS TODO step7:exit
 - [x] Lab 6: Processes
 - [x] Lab 7: Threads
-- [ ] Lab 8: Safer Systems Programming (featuring Rust)
+- [x] Lab 8: Safer Systems Programming (featuring Rust)
 - [ ] Lab 9: Protobuf and gRPC
 - [ ] Project 5: Vunmo
 - [ ] Project 6: Distributed Store
