@@ -13,7 +13,7 @@
 - [x] Lab 6: Processes
 - [x] Lab 7: Threads
 - [x] Lab 8: Safer Systems Programming (featuring Rust)
-- [ ] Lab 9: Protobuf and gRPC
+- [x] Lab 9: Protobuf and gRPC
 - [ ] Project 5: Vunmo
 - [ ] Project 6: Distributed Store
 
