@@ -14,7 +14,7 @@
 - [x] Lab 7: Threads
 - [x] Lab 8: Safer Systems Programming (featuring Rust)
 - [x] Lab 9: Protobuf and gRPC
-- [ ] Project 5: Vunmo
+- [X] Project 5: Vunmo
 - [ ] Project 6: Distributed Store
 
 #### Resources

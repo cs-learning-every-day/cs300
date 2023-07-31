@@ -89,6 +89,7 @@ start_new_container() {
         -v "$maindir/home":/home/cs300-user \
         -w "/home/cs300-user" \
         -p "0.0.0.0:9095:9095" \
+	-p "8888:8888"
         --network "$network_name" \
         $netarg$sshenvarg $tag
 }
