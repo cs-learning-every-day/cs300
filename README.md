@@ -15,7 +15,7 @@
 - [x] Lab 8: Safer Systems Programming (featuring Rust)
 - [x] Lab 9: Protobuf and gRPC
 - [X] Project 5: Vunmo
-- [ ] Project 6: Distributed Store
+- [X] Project 6: Distributed Store TODO: delete
 
 #### Resources
 
